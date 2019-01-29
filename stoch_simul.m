@@ -274,12 +274,11 @@ if options_.irf
                         xlim([1 options_.irf]);
                         remove_fractional_xticks;
                         title(deblank(mylist(j,:)),'Interpreter','none');
+                        matlab2tikz([ M_.fname '_IRF_' deblank(tit(i,:)) '.tikz'], 'showInfo', false);
                     end
                     dyn_saveas(hh,[M_.fname '_IRF_' deblank(tit(i,:))],options_.nodisplay,options_.graph_format);
-figHandles = findobj('Type','figure');
-for jj=1:size(figHandles,1)
-    matlab2tikz([ M_.fname '_IRF_' deblank(M_.exo_names(jj,:)) '.tikz'], 'showInfo', false, 'figurehandle', figHandles(jj));
-end;
+
+
 
                     if TeX && any(strcmp('eps',cellstr(options_.graph_format)))
                         fprintf(fidTeX,'\\begin{figure}[H]\n');
@@ -311,6 +310,8 @@ end;
                             xlim([1 options_.irf]);
                             remove_fractional_xticks
                             title(deblank(mylist((fig-1)*nstar+plt,:)),'Interpreter','none');
+                            matlab2tikz([ M_.fname '_IRF_' deblank(tit(i,:)) '.tikz'], 'showInfo', false);
+                    
                         end
                         dyn_saveas(hh,[ M_.fname '_IRF_' deblank(tit(i,:)) int2str(fig)],options_.nodisplay,options_.graph_format);
                         if TeX && any(strcmp('eps',cellstr(options_.graph_format)))
@@ -319,13 +320,17 @@ end;
                                 fprintf(fidTeX,['\\psfrag{%s}[1][][0.5][0]{$%s$}\n'],deblank(mylist((fig-1)*nstar+j,:)),deblank(mylistTeX((fig-1)*nstar+j,:)));
                             end
                             fprintf(fidTeX,'\\centering \n');
-                            fprintf(fidTeX,'\\includegraphics[width=%2.2f\\textwidth]{%s_IRF_%s%s}\n',options_.figures.textwidth*min(plt/nc,1),M_.fname,deblank(tit(i,:)),int2str(fig));
+                            %%fprintf(fidTeX,'\\includegraphics[width=%2.2f\\textwidth]{%s_IRF_%s%s}\n',options_.figures.textwidth*min(plt/nc,1),M_.fname,deblank(tit(i,:)),int2str(fig));
+                            fprintf(fidTeX,['\\input{',M_.fname,'_IRF_',deblank(tit(i,:)),'.tikz}\n'],options_.figures.textwidth*min(j/nc,1),M_.fname,deblank(tit(i,:)));
+                        
                             if options_.relative_irf
                                 fprintf(fidTeX,['\\caption{Relative impulse response' ...
                                                 ' functions (orthogonalized shock to $%s$).}'],deblank(titTeX(i,:)));
                             else
-                                fprintf(fidTeX,['\\caption{Impulse response functions' ...
-                                                ' (orthogonalized shock to $%s$).}'],deblank(titTeX(i,:)));
+                                %%fprintf(fidTeX,['\\caption{Impulse response functions' ...
+                                               % ' (orthogonalized shock to $%s$).}'],deblank(titTeX(i,:)));
+                                fprintf(fidTeX,['\\caption{ توابع واکنش آنی (متعامد نسبت به','$', ' %s ', '$',')', '.}\n'],titTeX(i,:));
+                        
                             end
                             fprintf(fidTeX,'\\label{Fig:IRF:%s:%s}\n',deblank(tit(i,:)),int2str(fig));
                             fprintf(fidTeX,'\\end{figure}\n');
@@ -344,6 +349,8 @@ end;
                         xlim([1 options_.irf]);
                         remove_fractional_xticks
                         title(deblank(mylist((nbplt-1)*nstar+plt,:)),'Interpreter','none');
+                        matlab2tikz([ M_.fname '_IRF_' deblank(tit(i,:)) '.tikz'], 'showInfo', false);
+                    
                     end
                     dyn_saveas(hh,[ M_.fname '_IRF_' deblank(tit(i,:)) int2str(nbplt) ],options_.nodisplay,options_.graph_format);
                     if TeX && any(strcmp('eps',cellstr(options_.graph_format)))
@@ -352,13 +359,16 @@ end;
                             fprintf(fidTeX,['\\psfrag{%s}[1][][0.5][0]{$%s$}\n'],deblank(mylist((nbplt-1)*nstar+j,:)),deblank(mylistTeX((nbplt-1)*nstar+j,:)));
                         end
                         fprintf(fidTeX,'\\centering \n');
-                        fprintf(fidTeX,'\\includegraphics[width=%2.2f\\textwidth]{%s_IRF_%s%s}\n',options_.figures.textwidth*min(m/lc,1),M_.fname,deblank(tit(i,:)),int2str(nbplt));
+                        %fprintf(fidTeX,'\\includegraphics[width=%2.2f\\textwidth]{%s_IRF_%s%s}\n',options_.figures.textwidth*min(m/lc,1),M_.fname,deblank(tit(i,:)),int2str(nbplt));
+                        fprintf(fidTeX,['\\input{',M_.fname,'_IRF_',deblank(tit(i,:)),'.tikz}\n'],options_.figures.textwidth*min(j/nc,1),M_.fname,deblank(tit(i,:)));
+                        
                         if options_.relative_irf
                             fprintf(fidTeX,['\\caption{Relative impulse response functions' ...
                                             ' (orthogonalized shock to $%s$).}'],deblank(titTeX(i,:)));
                         else
-                            fprintf(fidTeX,['\\caption{Impulse response functions' ...
-                                            ' (orthogonalized shock to $%s$).}'],deblank(titTeX(i,:)));
+                            %fprintf(fidTeX,['\\caption{Impulse response functions' ...
+                                            %' (orthogonalized shock to $%s$).}'],deblank(titTeX(i,:)));
+                        fprintf(fidTeX,['\\caption{ توابع واکنش آنی (متعامد نسبت به','$', ' %s ', '$',')', '.}\n'],titTeX(i,:));
                         end
                         fprintf(fidTeX,'\\label{Fig:IRF:%s:%s}\n',deblank(tit(i,:)),int2str(nbplt));
                         fprintf(fidTeX,'\\end{figure}\n');

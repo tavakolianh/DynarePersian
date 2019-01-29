@@ -1,0 +1,144 @@
+% This file was created by matlab2tikz.
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=2.603in,
+height=1.99in,
+at={(1.011in,3.406in)},
+scale only axis,
+xmin=1,
+xmax=12,
+ymin=-0.004,
+ymax=0,
+axis background/.style={fill=white},
+title style={font=\bfseries},
+title={x}
+]
+\addplot [color=black, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1	-0.00329740012698795\\
+2	-0.00263792010159035\\
+3	-0.00211033608127228\\
+4	-0.00168826886501783\\
+5	-0.00135061509201426\\
+6	-0.00108049207361141\\
+7	-0.000864393658889127\\
+8	-0.000691514927111302\\
+9	-0.000553211941689042\\
+10	-0.000442569553351233\\
+11	-0.000354055642680987\\
+12	-0.000283244514144789\\
+};
+\addplot [color=red, forget plot]
+  table[row sep=crcr]{%
+1	0\\
+12	0\\
+};
+\end{axis}
+
+\begin{axis}[%
+width=2.603in,
+height=1.99in,
+at={(4.436in,3.406in)},
+scale only axis,
+xmin=1,
+xmax=12,
+ymin=-0.015,
+ymax=0,
+axis background/.style={fill=white},
+title style={font=\bfseries},
+title={pi}
+]
+\addplot [color=black, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1	-0.0128725428034337\\
+2	-0.010298034242747\\
+3	-0.00823842739419758\\
+4	-0.00659074191535806\\
+5	-0.00527259353228645\\
+6	-0.00421807482582916\\
+7	-0.00337445986066333\\
+8	-0.00269956788853066\\
+9	-0.00215965431082453\\
+10	-0.00172772344865962\\
+11	-0.0013821787589277\\
+12	-0.00110574300714216\\
+};
+\addplot [color=red, forget plot]
+  table[row sep=crcr]{%
+1	0\\
+12	0\\
+};
+\end{axis}
+
+\begin{axis}[%
+width=2.603in,
+height=1.99in,
+at={(1.011in,0.642in)},
+scale only axis,
+xmin=1,
+xmax=12,
+ymin=-0.01,
+ymax=0,
+axis background/.style={fill=white},
+title style={font=\bfseries},
+title={i}
+]
+\addplot [color=black, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1	-0.00930881420465058\\
+2	-0.00744705136372046\\
+3	-0.00595764109097637\\
+4	-0.0047661128727811\\
+5	-0.00381289029822488\\
+6	-0.0030503122385799\\
+7	-0.00244024979086392\\
+8	-0.00195219983269114\\
+9	-0.00156175986615291\\
+10	-0.00124940789292233\\
+11	-0.000999526314337863\\
+12	-0.00079962105147029\\
+};
+\addplot [color=red, forget plot]
+  table[row sep=crcr]{%
+1	0\\
+12	0\\
+};
+\end{axis}
+
+\begin{axis}[%
+width=2.603in,
+height=1.99in,
+at={(4.436in,0.642in)},
+scale only axis,
+xmin=1,
+xmax=12,
+ymin=0,
+ymax=0.012,
+axis background/.style={fill=white},
+title style={font=\bfseries},
+title={nu}
+]
+\addplot [color=black, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1	0.0100000000005\\
+2	0.0080000000004\\
+3	0.00640000000032\\
+4	0.005120000000256\\
+5	0.0040960000002048\\
+6	0.00327680000016384\\
+7	0.00262144000013107\\
+8	0.00209715200010486\\
+9	0.00167772160008389\\
+10	0.00134217728006711\\
+11	0.00107374182405369\\
+12	0.00085899345924295\\
+};
+\addplot [color=red, forget plot]
+  table[row sep=crcr]{%
+1	0\\
+12	0\\
+};
+\end{axis}
+\end{tikzpicture}%

@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.9.22)  6 JAN 2019 14:35
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.9.22)  29 JAN 2019 08:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**DynarePersianManual.tex
-(./DynarePersianManual.tex
+**New_keynesian_TeX_binder.tex
+(./New_keynesian_TeX_binder.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -552,10 +552,6 @@ Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
@@ -647,7 +643,7 @@ LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count135
 \c@MaxMatrixCols=\count136
-\dotsspace@=\muskip11
+\dotsspace@=\muskip10
 \c@parentequation=\count137
 \dspbrk@lvl=\count138
 \tag@help=\toks34
@@ -704,12 +700,12 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l_tmpb_skip=\skip53
 \g_tmpa_skip=\skip54
 \g_tmpb_skip=\skip55
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
 \l_keys_choice_int=\count153
 \c__fp_leading_shift_int=\count154
 \c__fp_middle_shift_int=\count155
@@ -838,8 +834,8 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \eqlinespacing=\skip59
 \eqlineskip=\skip60
 \eqlineskiplimit=\dimen292
-\eqbinoffset=\muskip18
-\eqdelimoffset=\muskip19
+\eqbinoffset=\muskip17
+\eqdelimoffset=\muskip18
 \eqindentstep=\dimen293
 \eqstyle=\toks38
 \eqbreakdepth=\count179
@@ -848,12 +844,12 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \intereqskip=\skip61
 \prerelpenalty=\count182
 \prebinoppenalty=\count183
-\Dmedmuskip=\muskip20
-\Dthickmuskip=\muskip21
+\Dmedmuskip=\muskip19
+\Dthickmuskip=\muskip20
 \eqleftskip=\skip62
 \eqrightskip=\skip63
 \eq@vspan=\skip64
-\eq@binoffset=\muskip22
+\eq@binoffset=\muskip21
 \EQ@box=\box60
 \EQ@copy=\box61
 \EQ@numbox=\box62
@@ -892,17 +888,9 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \cur@col=\count191
 \conditionsep=\skip66
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/preprint/authblk.sty
-Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip67
-\@affilsep=\skip68
-\c@Maxaffil=\count192
-\c@authors=\count193
-\c@affil=\count194
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count195
+\c@float@type=\count192
 \float@exts=\toks41
 \float@box=\box66
 \@float@everytoks=\toks42
@@ -929,75 +917,41 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen318
 \caption@hangindent=\dimen319
 )
-\c@ContinuedFloat=\count196
+\c@ContinuedFloat=\count193
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 ))
-(./mcode.sty
--- Package: `mcode' 2.5 <2014/03/06> --
-Package: mcode 2014/03/06 2.5
- - settings optimized for display (colour formating)
- - line numbering enabled
- - literate programming (character replacements) enabled
- - automatic line breaking enabled (careful, buggy!)
- - framed listings
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count197
-\lst@gtempboxa=\box68
-\lst@token=\toks43
-\lst@length=\count198
-\lst@currlwidth=\dimen320
-\lst@column=\count199
-\lst@pos=\count266
-\lst@lostspace=\dimen321
-\lst@width=\dimen322
-\lst@newlines=\count267
-\lst@lineno=\count268
-\lst@maxwidth=\dimen323
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count269
-\lst@skipnumbers=\count270
-\lst@framebox=\box69
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
-))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
-\lbreakdots=\box70
-)
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/xepersian/xepersian.sty
 Package: xepersian 2017/05/06 v18.6 Persian typesetting in XeLaTeX
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2017/05/13 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count271
-\g__xparse_grabber_int=\count272
-\l__xparse_m_args_int=\count273
-\l__xparse_mandatory_args_int=\count274
-\l__xparse_v_nesting_int=\count275
+\l__xparse_current_arg_int=\count194
+\g__xparse_grabber_int=\count195
+\l__xparse_m_args_int=\count196
+\l__xparse_mandatory_args_int=\count197
+\l__xparse_v_nesting_int=\count198
 )
 Package: fontspec 2017/03/31 v2.6a Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2017/03/31 v2.6a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count276
-\l__fontspec_language_int=\count277
-\l__fontspec_strnum_int=\count278
-\l__fontspec_tmp_int=\count279
-\l__fontspec_em_int=\count280
-\l__fontspec_emdef_int=\count281
-\l__fontspec_strong_int=\count282
-\l__fontspec_strongdef_int=\count283
-\l__fontspec_tmpa_dim=\dimen324
-\l__fontspec_tmpb_dim=\dimen325
-\l__fontspec_tmpc_dim=\dimen326
+\l__fontspec_script_int=\count199
+\l__fontspec_language_int=\count266
+\l__fontspec_strnum_int=\count267
+\l__fontspec_tmp_int=\count268
+\l__fontspec_em_int=\count269
+\l__fontspec_emdef_int=\count270
+\l__fontspec_strong_int=\count271
+\l__fontspec_strongdef_int=\count272
+\l__fontspec_tmpa_dim=\dimen320
+\l__fontspec_tmpb_dim=\dimen321
+\l__fontspec_tmpc_dim=\dimen322
 \g__file_internal_ior=\read2
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
@@ -1185,43 +1139,43 @@ LaTeX Info: Redefining \- on input line 3807.
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.
 sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count284
-\XePersian@y=\count285
-\XePersian@m=\count286
-\XePersian@d=\count287
-\XePersian@latini=\count288
-\XePersian@persiani=\count289
-\XePersian@latinii=\count290
-\XePersian@persianii=\count291
-\XePersian@latiniii=\count292
-\XePersian@persianiii=\count293
-\XePersian@latiniv=\count294
-\XePersian@persianiv=\count295
-\XePersian@latinv=\count296
-\XePersian@persianv=\count297
-\XePersian@latinvi=\count298
-\XePersian@persianvi=\count299
-\XePersian@latinvii=\count300
-\XePersian@persianvii=\count301
-\XePersian@latinviii=\count302
-\XePersian@persianviii=\count303
-\XePersian@latinix=\count304
-\XePersian@persianix=\count305
-\XePersian@latinx=\count306
-\XePersian@persianx=\count307
-\XePersian@latinxi=\count308
-\XePersian@persianxi=\count309
-\XePersian@latinxii=\count310
-\XePersian@persianxii=\count311
-\XePersian@persianxiii=\count312
-\XePersian@temp=\count313
-\XePersian@temptwo=\count314
-\XePersian@tempthree=\count315
-\XePersian@yModHundred=\count316
-\XePersian@thirtytwo=\count317
-\XePersian@dn=\count318
-\XePersian@sn=\count319
-\XePersian@mminusone=\count320
+\XePersian@i=\count273
+\XePersian@y=\count274
+\XePersian@m=\count275
+\XePersian@d=\count276
+\XePersian@latini=\count277
+\XePersian@persiani=\count278
+\XePersian@latinii=\count279
+\XePersian@persianii=\count280
+\XePersian@latiniii=\count281
+\XePersian@persianiii=\count282
+\XePersian@latiniv=\count283
+\XePersian@persianiv=\count284
+\XePersian@latinv=\count285
+\XePersian@persianv=\count286
+\XePersian@latinvi=\count287
+\XePersian@persianvi=\count288
+\XePersian@latinvii=\count289
+\XePersian@persianvii=\count290
+\XePersian@latinviii=\count291
+\XePersian@persianviii=\count292
+\XePersian@latinix=\count293
+\XePersian@persianix=\count294
+\XePersian@latinx=\count295
+\XePersian@persianx=\count296
+\XePersian@latinxi=\count297
+\XePersian@persianxi=\count298
+\XePersian@latinxii=\count299
+\XePersian@persianxii=\count300
+\XePersian@persianxiii=\count301
+\XePersian@temp=\count302
+\XePersian@temptwo=\count303
+\XePersian@tempthree=\count304
+\XePersian@yModHundred=\count305
+\XePersian@thirtytwo=\count306
+\XePersian@dn=\count307
+\XePersian@sn=\count308
+\XePersian@mminusone=\count309
 )
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigits
 pec.sty
@@ -1303,8 +1257,8 @@ and LuaTeX
 )
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/bidi/biditools.sty
 Package: biditools 2016/11/30 v0.9 Programming tools for bidi package
-\@bidi@envbody=\toks44
-\@bidi@emptytoks=\toks45
+\@bidi@envbody=\toks43
+\@bidi@emptytoks=\toks44
 
 
 Package bidi Warning: Patching '\end' failed!
@@ -1326,7 +1280,7 @@ Package zref Info: New property: page on input line 761.
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
-\c@abspage=\count321
+\c@abspage=\count310
 Package zref Info: New property: abspage on input line 62.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -1334,23 +1288,23 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks46
-\XKV@tempa@toks=\toks47
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
 )
-\XKV@depth=\count322
+\XKV@depth=\count311
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
 File: latex-xetex-bidi.def 2017/05/06 v1.2.9 bidi adaptations for `latex.ltx' f
 or XeTeX engine
-\bidi@n@everypar=\toks48
-\bidi@column@check@number=\count323
+\bidi@n@everypar=\toks47
+\bidi@column@check@number=\count312
 
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2016/09/09 v1.0 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count324
-\footdir@toks=\toks49
+\c@footdir@label=\count313
+\footdir@toks=\toks48
 )
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/bidi/article-xetex-bidi.def
 File: article-xetex-bidi.def 2015/11/14 v0.5 bidi adaptations for standard arti
@@ -1403,10 +1357,6 @@ kage for XeTeX engine
 File: longtable-xetex-bidi.def 2016/09/09 v0.4 bidi adaptations for longtable p
 ackage for XeTeX engine
 )
-(/usr/local/texlive/2017/texmf-dist/tex/xelatex/bidi/listings-xetex-bidi.def
-File: listings-xetex-bidi.def 2017/01/14 v1.4 bidi adaptations for listings pac
-kage for XeTeX engine
-)
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/bidi/pgfcorescopes.code-xetex-b
 idi.def
 File: pgfcorescopes.code-xetex-bidi.def 2015/11/14 v0.1 bidi adaptations for pg
@@ -1417,7 +1367,7 @@ f
 File: loadingorder-xetex-bidi.def 2015/10/16 v0.96 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count325
+\bidi@digits=\count314
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@dot@charclass=\XeTeXcharclass2
 \bidi@dash@charclass=\XeTeXcharclass3
@@ -1495,9 +1445,9 @@ File: loadingorder-xetex-bidi.def 2015/10/16 v0.96 making sure that bidi is the
 . 
 . Defining command \setiranicfont with sig. 'O{}mO{}' on line 317.
 .................................................
-\xepersian@tcl=\count326
-\xepersian@ilg=\dimen327
-\xepersian@strutilg=\dimen328
+\xepersian@tcl=\count315
+\xepersian@ilg=\dimen323
+\xepersian@strutilg=\dimen324
 
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersia
 n.def
@@ -1509,11 +1459,6 @@ f
 File: footnote-xepersian.def 2017/02/04 v0.5 footnote macros for xepersian pack
 age
 )
-(/usr/local/texlive/2017/texmf-dist/tex/xelatex/xepersian/listings-xepersian.de
-f
-File: listings-xepersian.def 2014/07/17 v0.3 bilingual captions for listings pa
-ckage
-)
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/xepersian/breqn-xepersian.def
 File: breqn-xepersian.def 2010/07/25 v0.1 adaptations for breqn package
 )
@@ -1521,7 +1466,7 @@ File: breqn-xepersian.def 2010/07/25 v0.1 adaptations for breqn package
 File: article-xepersian.def 2010/07/25 v0.2 adaptations for standard article cl
 ass
 )
-\g__fontspec_family_lmroman10-regular_int=\count327
+\g__fontspec_family_lmroman10-regular_int=\count316
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1560,7 +1505,7 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 . <->"[lmromancaps10-regular]/OT:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
 )
-\g__fontspec_family_XBZar_int=\count328
+\g__fontspec_family_XBZar_int=\count317
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1582,7 +1527,7 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 . Zar/BI/OT:script=arab;language=FAR;mapping=parsidigits;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-\g__fontspec_family_TimesNewRoman_int=\count329
+\g__fontspec_family_TimesNewRoman_int=\count318
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1604,8 +1549,8 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \latinfont on input line 21.
-\g__fontspec_family_Yas_int=\count330
+LaTeX Info: Redefining \latinfont on input line 18.
+\g__fontspec_family_Yas_int=\count319
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1628,29 +1573,29 @@ LaTeX Info: Redefining \latinfont on input line 21.
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
-as'Yas' on input line 22.
+as'Yas' on input line 19.
 \symOPERATORS=\mathgroup6
 \symnew@mathbf@font@digits=\mathgroup7
 \symnew@mathit@font@digits=\mathgroup8
 \symnew@mathrm@font@digits=\mathgroup9
- (./DynarePersianManual.aux)
-\openout1 = `DynarePersianManual.aux'.
+ (./New_keynesian_TeX_binder.aux (./New_keynesian_dynamic_content.aux)
+(./New_keynesian_latex_definitions.aux) (./New_keynesian_latex_parameters.aux))
+\openout1 = `New_keynesian_TeX_binder.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1690,184 +1635,147 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.14}).
 
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count331
-\AtBeginShipoutBox=\box71
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+\AtBeginShipoutBox=\box68
+\openout2 = `New_keynesian_IRF.aux'.
+
+(./New_keynesian_IRF.tex (./New_keynesian_IRF_e_u.tikz
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
- [1
+))
+(./New_keynesian_IRF_e_pi.tikz) [1
+
+
+] (./New_keynesian_IRF_e_nu.tikz) [2])
+[3]
+\openout2 = `New_keynesian_dynamic_content.aux'.
+
+ (./New_keynesian_dynamic_content.tex
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'XBZar(1)' created for font 'XB Zar' with options
+. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Mapping=farsidigits].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"XB
+. Zar/OT:script=arab;language=FAR;mapping=farsidigits;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.: <->"XB
+. Zar/B/OT:script=arab;language=FAR;mapping=farsidigits;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.: <->"XB
+. Zar/I/OT:script=arab;language=FAR;mapping=farsidigits;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'bold italic' (bx/it) with NFSS spec.: <->"XB
+. Zar/BI/OT:script=arab;language=FAR;mapping=farsidigits;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+) [4
+
 
 ]
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
- [2]
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
+\openout2 = `New_keynesian_latex_definitions.aux'.
 
-[3]
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
-Missing character: There is no ‪ in font XB Zar/OT:script=arab;language=FAR;map
-ping=parsidigits;!
- [4] (./DynarePersianManual.aux) )
+
+(./New_keynesian_latex_definitions.tex) [5
+
+
+]
+\openout2 = `New_keynesian_latex_parameters.aux'.
+
+
+(./New_keynesian_latex_parameters.tex) [6
+
+
+]
+\openout2 = `New_keynesian/Output/New_keynesian_covar_ex_shocks.aux'.
+
+
+(./New_keynesian/Output/New_keynesian_covar_ex_shocks.tex
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 5 on input line 19.
+
+) [7
+
+
+]
+\openout2 = `New_keynesian/Output/New_keynesian_sim_autocorr_matrix.aux'.
+
+ (./New_keynesian/Output/New_keynesian_sim_autocorr_matrix.tex
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6 on input line 21.
+
+) [8
+
+
+]
+\openout2 = `New_keynesian/Output/New_keynesian_sim_corr_matrix.aux'.
+
+ (./New_keynesian/Output/New_keynesian_sim_corr_matrix.tex
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 7 on input line 21.
+
+) [9
+
+
+]
+\openout2 = `New_keynesian/Output/New_keynesian_sim_moments.aux'.
+
+ (./New_keynesian/Output/New_keynesian_sim_moments.tex
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 8 on input line 21.
+
+) [10
+
+
+]
+\openout2 = `New_keynesian/Output/New_keynesian_sim_var_decomp.aux'.
+
+ (./New_keynesian/Output/New_keynesian_sim_var_decomp.tex
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 9 on input line 21.
+
+) [11
+
+
+]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+(./New_keynesian_TeX_binder.aux (./New_keynesian_IRF.aux)
+(./New_keynesian_dynamic_content.aux) (./New_keynesian_latex_definitions.aux)
+(./New_keynesian_latex_parameters.aux)
+(./New_keynesian/Output/New_keynesian_covar_ex_shocks.aux)
+(./New_keynesian/Output/New_keynesian_sim_autocorr_matrix.aux)
+(./New_keynesian/Output/New_keynesian_sim_corr_matrix.aux)
+(./New_keynesian/Output/New_keynesian_sim_moments.aux)
+(./New_keynesian/Output/New_keynesian_sim_var_decomp.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 37267 strings out of 493005
- 902256 string characters out of 6134596
- 1113457 words of memory out of 5000000
- 40545 multiletter control sequences out of 15000+600000
- 12001 words of font info for 105 fonts, out of 8000000 for 9000
+ 36360 strings out of 493005
+ 897093 string characters out of 6134596
+ 1110792 words of memory out of 5000000
+ 39628 multiletter control sequences out of 15000+600000
+ 8589 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,13n,120p,10390b,1212s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,11n,120p,10412b,1955s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on DynarePersianManual.pdf (4 pages).
+Output written on New_keynesian_TeX_binder.pdf (11 pages).
